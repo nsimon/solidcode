@@ -1,0 +1,62 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-color: #222;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+    letter-spacing: 2.0px;
+    line-height: 1.6;
+}
+
+/* Centered container */
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    opacity: 0;
+    animation: fadeIn 1.2s ease-in-out forwards;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Tagline */
+.tagline {
+    font-size: 1.3em;
+    margin-bottom: 35px;
+}
+
+/* Links */
+.links a {
+    color: #66d9ff;  /* bright cyan for max contrast */
+    text-decoration: underline;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.links a:hover,
+.links a:focus {
+    color: #99e6ff;  /* lighter cyan on hover */
+}
+
+/* Contact */
+p {
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+}
+
