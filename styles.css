@@ -32,6 +32,12 @@ body {
     margin-bottom: 35px;
 }
 
+/* Email */
+.email {
+    font-size: 0.8em;
+    margin-top: 35px;
+}
+
 /* Links */
 .links a {
     color: #66d9ff;  /* bright cyan for max contrast */
